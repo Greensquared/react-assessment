@@ -17,8 +17,25 @@
 4. Use version control as you would in a normal project. Push your changes to a new branch (name it how you like).
 5. When you are finished we will pull, install and run the project - so make sure that it can run when you push your final version!
 
-## Notes:
+## Notes
 
 - Feel free to use any libraries that you wish when building the page
 - Keep it simple - this isn’t meant to take you all night. Spend max 3 hours and focus on a clean overview instead of lots of complex features.
 - The design can be anything you like. You can use the DEB style and colour scheme if you like, but feel free to use whichever design patterns that you feel appropriate.
+
+## Data structure
+
+There is an array of quotes which have relevant data, and each has an array of items, which represents the products on the quote.
+In the `energyDelta` object on the quote, you can find the savings to be made by installing the offered products.
+
+```
+[
+  {
+    ...quoteData,
+    items: [
+      product: { ...productData }
+    ]
+    energyDelta: { ...savingsCalculationsData }
+  },
+]
+```
