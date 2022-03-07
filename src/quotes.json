@@ -3,7 +3,6 @@
     "adviserName": "Laurens van Dusschoten",
     "created": 1626863764812,
     "expirationDate": 1628114399000,
-    "final": 1626863960441,
     "investment": 5347.38,
     "isAccepted": false,
     "isAdvised": true,
@@ -106,15 +105,13 @@
       "gasConsumption": 0,
       "gasFactor": 0,
       "emission": 2266.2639999999997,
-      "money": 1624.4199999999998,
-      "energyIndex": 0.39
+      "money": 1624.4199999999998
     }
   },
   {
     "adviserName": "Laurens van Dusschoten",
     "created": 1626864813963,
     "expirationDate": 1628114399000,
-    "final": 1626867750792,
     "investment": 2214.9591000000005,
     "isAccepted": true,
     "isAdvised": true,
@@ -198,15 +195,13 @@
       "gasConsumption": 364.54835732762723,
       "gasFactor": 0.146964249266672,
       "emission": 648.8960760431764,
-      "money": 510.3677002586781,
-      "energyIndex": 0
+      "money": 510.3677002586781
     }
   },
   {
     "adviserName": "Laurens van Dusschoten",
     "created": 1626865577316,
     "expirationDate": 1628114399000,
-    "final": 1626865589048,
     "investment": 2390.0162,
     "isAccepted": false,
     "isAdvised": true,
@@ -282,15 +277,13 @@
       "gasConsumption": 190.2332329949239,
       "gasFactor": 0.0766907426976688,
       "emission": 338.61515473096455,
-      "money": 266.3265261928934,
-      "energyIndex": 0
+      "money": 266.3265261928934
     }
   },
   {
     "adviserName": "Laurens van Dusschoten",
     "created": 1632904850257,
     "expirationDate": 1634162399000,
-    "final": null,
     "investment": 1620.9053999999999,
     "isAccepted": true,
     "isAdvised": true,
@@ -366,8 +359,7 @@
       "gasConsumption": 199.73513672224118,
       "gasFactor": 0.0805213460176952,
       "emission": 355.5285433655893,
-      "money": 279.62919141113764,
-      "energyIndex": 0.16
+      "money": 279.62919141113764
     }
   }
 ]
