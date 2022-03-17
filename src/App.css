@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  src: url('../public/assets/fontawesome/fa-solid-900.ttf');
+  src: url('../public/assets/fontawesome/fa-solid-900.woff2');
+}
+
 #root {
   position: relative;
   padding-bottom: 6.25rem;
@@ -105,6 +111,36 @@ tr th.text-primary {
   color: #29cc96 !important;
 }
 
+thead tr th {
+  color: rgb(51, 51, 51);
+}
+
 main {
   padding-bottom: 30px;
+}
+.ascending:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0dd';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.descending:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0de';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.icon {
+  color: gray;
+  width: 1em;
+}
+.table-sort {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font-weight: 600;
 }

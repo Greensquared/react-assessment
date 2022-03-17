@@ -2,17 +2,21 @@ import React from 'react';
 import { QuotesGridRow } from './QuotesGridRow';
 import { Accordion } from 'react-bootstrap';
 import { ContextAwareToggle } from './ContextAwareToggle';
-import { Quotes } from '../api';
+import { Quotes } from '../../types/quote';
 import { QuotesGridBodyCollapse } from './QuotesGridBodyCollapse';
+import { useSortContext } from '../../service/SortService';
 
 type Props = {
   results: Quotes[];
 };
 
 export const QuotesGridBody: React.FC<Props> = ({ results }) => {
+  const { getSortedItems } = useSortContext();
+  const sortedItems = getSortedItems(results);
+
   return (
     <tbody>
-      {results.map((row, index) => (
+      {sortedItems.map((row, index) => (
         <>
           <Accordion.Item className="accordion" as="tr" eventKey={`accordionKey-${index}`} key={index}>
             <QuotesGridRow data={row} key={index} />

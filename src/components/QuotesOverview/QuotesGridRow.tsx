@@ -1,6 +1,6 @@
 import React from 'react';
-import { Quotes } from '../api';
-import { formatNumberToNlCurrency, getDateFromTimeStamp } from '../helperFunctions';
+import { Quotes } from '../../types/quote';
+import { formatNumberToNlCurrency, getDateFromTimeStamp } from '../../helpers/helperFunctions';
 
 type Props = {
   data: Quotes;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import { Quotes } from '../api';
-import { formatNumberToNlCurrency } from '../helperFunctions';
+import { Quotes } from '../../types/quote';
+import { formatNumberToNlCurrency } from '../../helpers/helperFunctions';
 
 type Props = {
   row: Quotes;
