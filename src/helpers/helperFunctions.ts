@@ -3,7 +3,7 @@ export const formatNumberToNlCurrency = (amount: number) => {
   return new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR' }).format(amount);
 };
 
-//timestamp conversion
+//example: converts 1626863764812 to 21-06-2020
 export const getDateFromTimeStamp = (timestamp: number) => {
   let d = new Date(timestamp);
   let timeStampCon = d.getDate() + '-' + d.getMonth() + '-' + d.getFullYear();

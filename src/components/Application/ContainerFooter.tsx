@@ -7,12 +7,12 @@ export const ContainerFooter: React.FC = () => {
         <div className="col-sm-auto">
           <ul className="nav flex-column flex-sm-row">
             <li className="nav-item">
-              <a className="nav-link" href="https://www.energiebespaarders.nl/" target="_blank" rel="noreferrer">
+              <a className="nav-link" href="#" target="_blank" rel="noreferrer">
                 Privacy
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://www.energiebespaarders.nl/" target="_blank" rel="noreferrer">
+              <a className="nav-link" href="#" target="_blank" rel="noreferrer">
                 Cookies
               </a>
             </li>

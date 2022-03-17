@@ -1,7 +1,5 @@
 import React from 'react';
-import { ContainerFooter } from './components/Application/ContainerFooter';
-import { ContainerHeader } from './components/Application/ContainerHeader';
-import { QuotesGrid } from './components/QuotesOverview';
+import { ContainerFooter, ContainerHeader, QuotesGrid } from './components';
 
 const App: React.FC = () => {
   return (
