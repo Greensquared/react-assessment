@@ -6,9 +6,9 @@ type ToggleProps = {
 };
 
 export const ContextAwareToggle: React.FC<ToggleProps> = ({ eventKey }) => {
-  const currentEventKey = useContext(AccordionContext);
+  const { activeEventKey } = useContext(AccordionContext);
   const handleClick = useAccordionButton(eventKey);
-  const isCurrentEventKey = currentEventKey === eventKey;
+  const isCurrentEventKey = activeEventKey === eventKey;
 
   return (
     <td>
@@ -16,6 +16,7 @@ export const ContextAwareToggle: React.FC<ToggleProps> = ({ eventKey }) => {
         type="button"
         onClick={handleClick}
         className={isCurrentEventKey ? 'accordion-button' : 'accordion-button collapsed'}
+        data-bs-toggle="collapse"
       ></button>
     </td>
   );

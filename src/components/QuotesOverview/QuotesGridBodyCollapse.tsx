@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Accordion } from 'react-bootstrap';
 import { Quotes } from '../../types/quote';
 import { formatNumberToNlCurrency } from '../../helpers/helperFunctions';
@@ -29,13 +29,13 @@ export const QuotesGridBodyCollapse: React.FC<Props> = ({ row, index }) => {
               <div className="col-lg-6">
                 <h3 className="h4 mb-4">Product Details</h3>
                 <dl className="row no-gutters text-dark mb-10">
-                  {row.items.map(item => (
-                    <>
+                  {row.items.map((item, index) => (
+                    <Fragment key={index}>
                       <dt className="col-12">
                         {item.product.title}-{item.amount}
                       </dt>
                       <dd className="col-12">{item.retailPrice}</dd>
-                    </>
+                    </Fragment>
                   ))}
                 </dl>
               </div>
