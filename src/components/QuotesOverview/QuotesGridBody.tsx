@@ -19,7 +19,7 @@ export const QuotesGridBody: React.FC<Props> = ({ results }) => {
       {sortedItems.map((row, index) => (
         <Fragment key={index}>
           <Accordion.Item className="accordion" as="tr" eventKey={`accordionKey-${index}`} key={index}>
-            <QuotesGridRow data={row} key={index} />
+            <QuotesGridRow data={row} key={index} id={index} />
             <ContextAwareToggle eventKey={`accordionKey-${index}`} />
           </Accordion.Item>
           <QuotesGridBodyCollapse row={row} index={index} />
