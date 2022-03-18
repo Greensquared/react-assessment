@@ -1,38 +1,146 @@
-.App {
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  src: url('../public/assets/fontawesome/fa-solid-900.ttf');
+  src: url('../public/assets/fontawesome/fa-solid-900.woff2');
+}
+
+#root {
+  position: relative;
+  padding-bottom: 6.25rem;
+  min-height: 100%;
+}
+
+.application-container {
   text-align: center;
+  background-color: rgb(238, 246, 242);
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer {
+  width: 100%;
+  color: #29cc96;
+  margin-top: 1rem;
+  font-weight: 500;
+  padding: 1.25rem 0;
+  background: white;
+  position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  color: rgb(41, 204, 150);
+  box-sizing: border-box;
+  align-self: auto;
+  z-index: 3;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(41, 204, 150);
+  border-radius: 3px;
+  width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.head-wrapper {
+  height: 70px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  transform: translate3d(0px, 0px, 0px);
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  background: white;
+  z-index: 1000;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  display: block;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-transform: none;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  font-family: Geomanist, Helvetica, Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtitle {
+  display: block;
+  font-weight: 500;
+  text-transform: none;
+  width: 100%;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0.5em;
+  font-family: Geomanist, Helvetica, Arial, sans-serif;
+}
+
+.title-block {
+  position: relative;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background: none;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.branding {
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.brand-image {
+  padding: calc(15px);
+  height: 70px;
+  transform: scale(1) translateX(0px);
+  transition: transform 0.15s ease 0s;
+}
+
+.nav li a {
+  color: #29cc96 !important;
+}
+
+tr th.text-primary {
+  color: #29cc96 !important;
+}
+
+thead tr th {
+  color: rgb(51, 51, 51);
+}
+
+main {
+  padding-bottom: 30px;
+}
+.ascending:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0dd';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.descending:before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0de';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.icon {
+  color: gray;
+  width: 1em;
+}
+.table-sort {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font-weight: 600;
 }
