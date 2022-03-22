@@ -1,6 +1,6 @@
 [
   {
-    "adviserName": "Laurens van Dusschoten",
+    "adviserName": "NRG Bespada",
     "created": 1626863764812,
     "expirationDate": 1628114399000,
     "investment": 5347.38,
@@ -21,7 +21,7 @@
         "amount": 12,
         "retailPrice": 145.2,
         "product": {
-          "title": "Trina Solar - Vertex Mono 390 All Black 1/3 Cut PERC",
+          "title": "Trina Solar Vertex Mono 390 All Black 1/3 Cut PERC",
           "description": "De panelen van de Trina Vertex range hebben tri-cut PERC cellen, waardoor ze een hoog vermogen leveren met een relatief klein oppervlak. Trina heeft zorg besteed aan het uiterlijk van deze all black panelen, hierdoor komen ze goed tot hun recht op het vooraanzicht van een woning. Met 15 jaar garantie zijn deze panelen een goede keuze voor de residentiële markt.\n",
           "solution": "solarPanels",
           "category": "pvPanel",
@@ -109,7 +109,7 @@
     }
   },
   {
-    "adviserName": "Laurens van Dusschoten",
+    "adviserName": "NRG Bespada",
     "created": 1626864813963,
     "expirationDate": 1628114399000,
     "investment": 2214.9591000000005,
@@ -199,7 +199,7 @@
     }
   },
   {
-    "adviserName": "Laurens van Dusschoten",
+    "adviserName": "NRG Bespada",
     "created": 1626865577316,
     "expirationDate": 1628114399000,
     "investment": 2390.0162,
@@ -281,7 +281,7 @@
     }
   },
   {
-    "adviserName": "Laurens van Dusschoten",
+    "adviserName": "NRG Bespada",
     "created": 1632904850257,
     "expirationDate": 1634162399000,
     "investment": 1620.9053999999999,

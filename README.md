@@ -4,7 +4,7 @@
 2. Import the quotes.json
 3. Create an overview page for the customer to bqe able to see the different quotes from DEB that they can have installed in their house:
 
-- Must show the quotes separately with
+- Must show the quotes separately with total savings
 - Must show the relevant information for an overview (not necessarily every piece of data)
 - Must be clear and concise
 - Must have a control at the top to sort the quotes by:
